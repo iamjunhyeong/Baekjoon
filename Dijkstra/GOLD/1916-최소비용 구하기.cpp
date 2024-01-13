@@ -36,7 +36,6 @@ void Solve()
 				dist[next] = nCost + cost;
 				PQ.push(make_pair(-dist[next], next));
 			}
-
 		}
 	}
 	if (dist[ari] == INF) cout << "INF" << "\n";
